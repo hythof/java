@@ -12,8 +12,6 @@ public class App
 {
     public static void main(String[] args)
     {
-        System.out.println("try to load " + args[0]);
-        System.load(args[0]); // absolute of libnative.so
         System.out.println("try to call runInC");
         NativeLibrary.INSTANCE.runInC();
     }
