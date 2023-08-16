@@ -5,11 +5,11 @@ void g() {
 }
 
 void f() {
-  puts("f()");
   g();
+  puts("f()");
 }
 
 void runInC() {
-  puts("Hello from runInC");
   f();
+  puts("Hello from runInC");
 }
