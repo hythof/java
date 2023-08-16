@@ -1,3 +1,4 @@
 a.out
-libsandbox.so
+*.so
+*.dylib
 com.example.sandbox/target/
